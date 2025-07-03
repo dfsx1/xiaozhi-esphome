@@ -144,7 +144,7 @@ sensor:
     pin: GPIO${battery_adc_pin}
     name: "Battery Voltage"
     id: battery_voltage
-    attenuation: 11db
+    attenuation: auto
     accuracy_decimals: 2
     update_interval: 1s
     unit_of_measurement: "V"
